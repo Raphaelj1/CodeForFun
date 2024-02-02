@@ -1,0 +1,116 @@
+html {
+
+}
+
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    color: rgb(98, 100, 102);
+
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: darkblue;
+}
+
+nav ul, footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+nav li, footer li {
+    margin-right: 10px;
+    padding: 18px 15px;
+    display: inline-block;
+}
+
+nav li a, footer li a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav li a:hover, footer li a:hover {
+    border-bottom: 4px solid whitesmoke;
+}
+
+footer {
+    background-color: black;
+    margin-top: 32px;
+}
+
+main {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+section h1 {
+    font-size: 36px;
+    border-bottom: 1px dashed #333;
+}
+
+section figure img {
+    width: 680px;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 1px;
+}
+
+.reviews {
+    /* width: 680px; */
+    margin: 0 auto;
+}
+
+section article {
+    width: 600px;
+    /* border-color: #333; */
+    /* border-bottom: rgb(98, 100, 102); */
+    border-style: outset;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+section article p {
+    padding: 10px;
+}
+
+section article h4 {
+    font-weight: 200;
+    font-style: italic;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.right-review {
+    margin-left: auto;
+}
+
+table {
+    padding: 4px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+th, tr, td {
+    padding: 20px;
+    border: 1px solid;
+}
+
+th {
+    background-color: rgb(98, 100, 102);
+    color: whitesmoke;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
